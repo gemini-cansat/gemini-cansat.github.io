@@ -32,8 +32,8 @@ The contact form at the bottom of the page allows users to send questions via em
 This project is licensed under the MIT License.
 
 blog-website
+├── index.html
 ├── src
-│   ├── index.html
 │   ├── css
 │   │   └── styles.css
 │   └── js
