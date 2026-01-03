@@ -1,52 +1,324 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Blog</title>
+    <title>Gemini CanSat - Zespół Misji Kosmicznej</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <h1>Gemini Cansat 2025 project blog</h1>
+        <h1>🛰️ Gemini CanSat 2025</h1>
+        <p class="tagline">Młodzi Inżynierowie. Wielkie Marzenia. Nieskończony Kosmos.</p>
         <nav>
-            <a href="#home">Home</a>
-            <a href="#blog">Blog</a>
-            <a href="#contact">Contact</a>
+            <a href="#about">O Nas</a>
+            <a href="#team">Zespół</a>
+            <a href="#faq">FAQ</a>
+            <a href="#game">Mini Gra</a>
+            <a href="#contact">Kontakt</a>
         </nav>
     </header>
 
     <main>
-        <section id="blog">
-            <article class="blog-post">
-                <h2>Jan Mus</h2>
-                <p class="date">October 13, 2025</p>
-                <p>Jan Mus za rzadko się pojawia na spotkaniach, lepsza by była jego siostra</p>
-            </article>
-            
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <h2>O Projekcie Gemini CanSat</h2>
+            <div class="about-content">
+                <p class="intro-text">
+                    Jesteśmy zespołem pięciu pasjonatów technologii kosmicznej, którzy zjednoczyli się pod sztandarem projektu <strong>Gemini CanSat</strong>. 
+                    Nasza misja to nie tylko zbudowanie funkcjonalnego satelity w formie puszki, ale przede wszystkim udowodnienie, że młodzi 
+                    umysły z Polski mogą osiągać wielkie rzeczy w dziedzinie eksploracji kosmosu.
+                </p>
+                <p>
+                    W ramach projektu CanSat rozwijamy zaawansowany mini-satelitę zdolny do zbierania danych atmosferycznych, 
+                    transmisji telemetrii w czasie rzeczywistym oraz wykonywania precyzyjnych pomiarów podczas lotu stratosferycznego. 
+                    Każdy członek naszego zespołu wnosi unikalne umiejętności, które razem tworzą spójną i efektywną jednostkę badawczą.
+                </p>
+            </div>
         </section>
 
-        <section id="contact">
-            <h2>Contact Us</h2>
+        <!-- Team Section -->
+        <section id="team" class="team-section">
+            <h2>Poznaj Nasz Zespół</h2>
+            <p class="team-intro">Pięciu inżynierów. Jedna wizja. Nieskończone możliwości.</p>
+            
+            <div class="team-grid">
+                <!-- Jan Mus -->
+                <article class="team-member">
+                    <div class="member-header">
+                        <div class="member-icon">🎯</div>
+                        <h3>Jan Mus</h3>
+                        <p class="role">Wizjoner i Strateg Misji</p>
+                    </div>
+                    <div class="member-description">
+                        <p>
+                            Jan to umysł stojący za strategiczną wizją projektu Gemini. Jego analityczne podejście do problemów 
+                            oraz zdolność do dostrzegania długoterminowych perspektyw sprawiają, że każda decyzja zespołu jest 
+                            przemyślana i celowa. Choć czasem trudno go złapać na spotkaniach (plotka głosi, że synchronizuje 
+                            się z fazami księżyca), jego wkład w projekt jest niezastąpiony. 
+                        </p>
+                        <p class="highlight">
+                            "W kosmosie nie ma miejsca na przypadek - każda sekunda musi być zaplanowana." - Jan Mus
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Jan Popowicz -->
+                <article class="team-member">
+                    <div class="member-header">
+                        <div class="member-icon">⚡</div>
+                        <h3>Jan Popowicz</h3>
+                        <p class="role">Elektroniczny Czarodziej</p>
+                    </div>
+                    <div class="member-description">
+                        <p>
+                            Jan Popowicz to mistrz wszystkich układów scalonych i obwodów elektrycznych. Jeśli coś ma płynąć 
+                            prądem nie tylko z gniazdka czasami rownież herbat z prądem, on wie jak to zoptymalizować. Odpowiedzialny za projektowanie systemu zasilania, 
+                            sensorów oraz modułów komunikacyjnych CanSat. Jego warsztat pracy to symfonia lutownicy, 
+                            oscyloskopów i nieskończonych kawałków przewodów.
+                        </p>
+                        <p class="highlight">
+                            "Elektronika to poezja zapisana w siliconie i miedzi." - Jan Popowicz
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Jakub Czaderski -->
+                <article class="team-member">
+                    <div class="member-header">
+                        <div class="member-icon">💻</div>
+                        <h3>Jakub Czaderski</h3>
+                        <p class="role">Architekt Oprogramowania</p>
+                    </div>
+                    <div class="member-description">
+                        <p>
+                            Jakub to programista, który tłumaczy język kosmosu na język C++, Python i każdy inny potrzebny 
+                            do realizacji misji. Odpowiada za firmware satelity, system telemetrii oraz interfejsy kontroli 
+                            naziemnej. Jego kod jest tak czysty, że mogliby go publikować w podręcznikach akademickich. 
+                            To także wizualny artysta zespołu - każdy piksel na tej stronie przeszedł przez jego krytyczne oko.
+                        </p>
+                        <p class="highlight">
+                            "Dobry kod działa. Świetny kod inspiruje." - Jakub Czaderski
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Ignacy Ozga -->
+                <article class="team-member">
+                    <div class="member-header">
+                        <div class="member-icon">🔬</div>
+                        <h3>Ignacy Ozga</h3>
+                        <p class="role">Naukowiec Danych i Analityk</p>
+                    </div>
+                    <div class="member-description">
+                        <p>
+                            Ignacy jest tym, który sprawia, że surowe dane ze stratosery mają sens. Specjalizuje się w 
+                            analizie telemetrii, modelowaniu trajektorii lotu oraz interpretacji wyników eksperymentów. 
+                            Jego arkusze kalkulacyjne są bardziej skomplikowane niż niektóre algorytmy NASA, a jego 
+                            prezentacje wyników zawsze pozostawiają audytorium w niemym zachwycie. Człowiek, który 
+                            potrafi znaleźć wzorzec w chaosie.
+                        </p>
+                        <p class="highlight">
+                            "Dane nie kłamią - trzeba tylko umieć ich słuchać." - Ignacy Ozga
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Benedykt Cyran -->
+                <article class="team-member">
+                    <div class="member-header">
+                        <div class="member-icon">🛠️</div>
+                        <h3>Benedykt Cyran</h3>
+                        <p class="role">Inżynier Mechaniczny i Konstruktor</p>
+                    </div>
+                    <div class="member-description">
+                        <p>
+                            Benedykt to człowiek, który materiał z CADa przenosi w rzeczywistość. Odpowiada za konstrukcję 
+                            mechaniczną CanSata, system spadochronowy oraz wszystkie elementy, które muszą wytrzymać 
+                            ekstremalne warunki podczas lotu. Jego projekty łączą elegancję inżynierską z brutalnymi 
+                            wymaganiami fizyki. Jeśli coś się kręci, obraca, rozkłada lub ląduje - to dzieło Benedykta.
+                        </p>
+                        <p class="highlight">
+                            "Konstrukcja to kompromis między marzeniem a grawitacją." - Benedykt Cyran
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="faq-section">
+            <h2>Najczęściej Zadawane Pytania</h2>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Czym jest CanSat?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>
+                            CanSat to mini-satelita wielkości puszki po napoju, który zawiera wszystkie główne podsystemy 
+                            prawdziwego satelity. Podczas misji CanSat jest wynoszony na wysokość około 1-4 km za pomocą 
+                            rakiety lub balonu, skąd następnie opada na spadochronie, zbierając dane naukowe i przesyłając 
+                            je na stację naziemną.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Jakie sensory znajdują się w waszym CanSacie?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>
+                            Nasz CanSat jest wyposażony w sensory temperatury, ciśnienia atmosferycznego, wilgotności, 
+                            akcelerometr 3-osiowy, żyroskop, magnetometr oraz GPS. Dodatkowo zabudowaliśmy kamerę do 
+                            rejestracji wideo podczas lotu oraz czujniki UV do pomiaru promieniowania ultrafioletowego.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Jak długo trwała konstrukcja CanSata?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>
+                            Projekt rozpoczęliśmy w wrześniu 2025 roku. Od wtedy spędziliśmy setki godzin na projektowaniu, 
+                            prototypowaniu, testowaniu i udoskonalaniu naszego satelity. Największym wyzwaniem było 
+                            zmieszczenie wszystkich komponentów w tak małej przestrzeni przy zachowaniu funkcjonalności.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Gdzie będzie testowany wasz CanSat?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>
+                            Planujemy uczestnictwo w oficjalnych zawodach CanSat organizowanych przez ESA (Europejska Agencja 
+                            Kosmiczna). Przed tym przeprowadzimy testy naziemne oraz loty testowe na mniejszych wysokościach 
+                            w Polsce, aby zweryfikować wszystkie systemy.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Czy mogę dołączyć do waszego zespołu?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>
+                            Obecny skład zespołu Gemini jest kompletny, jednak zawsze szukamy partnerów, sponsorów oraz 
+                            mentorów. Jeśli masz doświadczenie w technologii kosmicznej, elektronice, programowaniu lub 
+                            inżynierii i chcesz nas wesprzeć - skontaktuj się z nami przez formularz poniżej!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Jaki jest budżet projektu?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>
+                            Projekt jest finansowany przez nasze własne środki oraz sponsorów technicznych. Całkowity budżet 
+                            wynosi około 5000-8000 PLN, co obejmuje komponenty elektroniczne, materiały konstrukcyjne, 
+                            narzędzia oraz koszty uczestnictwa w zawodach. Każda złotówka jest starannie inwestowana.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mini Game Section -->
+        <section id="game" class="game-section">
+            <h2>🎮 Mini Gra: Złap CanSata!</h2>
+            <p class="game-description">
+                Steruj platformą i łap spadające CanSaty! Używaj strzałek ← → lub klikaj/dotykaj ekran.
+            </p>
+            
+            <div class="game-container">
+                <div class="game-stats">
+                    <div class="stat">
+                        <span class="stat-label">Wynik:</span>
+                        <span id="score" class="stat-value">0</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-label">Życia:</span>
+                        <span id="lives" class="stat-value">❤️❤️❤️</span>
+                    </div>
+                </div>
+                
+                <canvas id="gameCanvas"></canvas>
+                
+                <div class="game-controls">
+                    <button id="startButton" class="game-button">Start Gry</button>
+                    <button id="restartButton" class="game-button" style="display:none;">Zagraj Ponownie</button>
+                </div>
+                
+                <div id="gameOver" class="game-over" style="display:none;">
+                    <h3>Koniec Gry!</h3>
+                    <p>Twój wynik: <span id="finalScore">0</span></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <h2>Skontaktuj Się Z Nami</h2>
+            <p class="contact-intro">Masz pytanie? Pomysł? A może chcesz zostać naszym sponsorem? Napisz do nas!</p>
+            
             <div class="contact-info">
-                <p>Email: gemini-cansat@outlook.com</p>
-                <p>GitHub: github.com/gemini-cansat</p>
-                <p>Instagram: Jakub wpisz to tutaj</p>
+                <div class="contact-item">
+                    <span class="contact-icon">📧</span>
+                    <div>
+                        <strong>Email:</strong>
+                        <p>gemini-cansat@outlook.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">💻</span>
+                    <div>
+                        <strong>GitHub:</strong>
+                        <p><a href="https://github.com/gemini-cansat" target="_blank">github.com/gemini-cansat</a></p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📱</span>
+                    <div>
+                        <strong>Instagram:</strong>
+                        <p>@gemini_cansat</p>
+                    </div>
+                </div>
             </div>
             
-            <form id="contact-form">
-                <input type="text" id="name" placeholder="Your Name" required>
-                <input type="email" id="email" placeholder="Your Email" required>
-                <textarea id="message" placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
+            <form id="contact-form" class="contact-form">
+                <div class="form-row">
+                    <input type="text" id="name" placeholder="Twoje Imię i Nazwisko" required>
+                    <input type="email" id="email" placeholder="Twój Email" required>
+                </div>
+                <input type="text" id="subject" placeholder="Temat Wiadomości" required>
+                <textarea id="message" placeholder="Twoja Wiadomość..." required></textarea>
+                <button type="submit">Wyślij Wiadomość 🚀</button>
             </form>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Cansat Gemini team. All rights reserved.</p>
+        <p>&copy; 2025 Gemini CanSat Team. Wszystkie prawa zastrzeżone.</p>
+        <p class="footer-tagline">Ad Astra Per Aspera - Przez Trudności Do Gwiazd ✨</p>
     </footer>
 
     <script src="js/contact.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/faq.js"></script>
 </body>
 </html>
